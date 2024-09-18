@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width">
+    <title>Introducing YOLLICOSMIC :: spindlebink</title>
+    <link rel="canonical" href="spindlebink.com/post/introducing-yollicosmic.html">
+    <link rel="stylesheet" type="text/css" href="/assets/styles/main.css">
+  </head>
+  <body>
+    <main>
+      <div class="site-header-box">
+        <div class="site-header"><span class="flar">&#10047;</span>
+          <h1 class="page-title"><a href="/">spindl<span class="color-accent">e</span>bink</a></h1>
+          <nav class="nav-bar"><a href="/">home</a></nav>
+          <nav class="nav-bar"><a href="https://spindlebink.itch.io" target="_blank">itch.io</a></nav>
+          <nav class="nav-bar"><a href="https://sr.ht/~spindlebink" target="_blank">sr.ht</a></nav>
+        </div>
+      </div>
+      <div class="content">
+        <section class="page">
+          <div class="content-header">
+            <h1 class="title"><a href="/post/introducing-yollicosmic.html/index.html">Introducing YOLLICOSMIC</a></h1><span class="metadata">a 7-minute read from 13 Sept 2024</span><br><span class="metadata"><i><script type="text/javascript">document.write((["helpfully","conveniently","bewilderedly","boldly","meticulously","saucily","cautiously","kindly","invitingly","obediently","quietly","politely","determinedly","optimistically","bemusedly","loyally","creatively","mildly","joyously","delightedly","dramatically","coyly","deftly","wisely"])[Math.floor(Math.random() * 24)])</script><noscript>wisely</noscript></i> tagged 
+              <ul class="tags">
+                <li><a class="deemph" href="/tag/devlog">devlog</a></li>
+                <li><a class="deemph" href="/tag/design">design</a></li>
+              </ul></span>
+          </div>
+          <div class="content-body"><blockquote>
+<p>This devlog can also be found <a href="https://spindlebink.itch.io/yollicosmic/devlog/798673/introduction" target="_blank">on itch.io</a>. You can follow me there to get updates when I write something new.</p>
+</blockquote>
+<p>A lone, nameless voyager, you have been dispatched by your cosmic progenetrix, the RED HOUSE, to retrieve lost artifacts of her TWENTY-FOURTH AGE.</p>
+<p>Collect artifacts, communicate with strange creatures, and acquire unique, game-changing abilities in an interlocking deep space complex of indeterminable dimensions.</p>
+<p>YOLLICOSMIC is an in-development nonlinear action platformer that follows up on the mood and mechanics of my LOWREZJAM ‘23 jam game, <a href="https://spindlebink.itch.io/snootlet" target="_blank">Snootlet</a>.</p>
+<h2 id="goals">Goals</h2>
+<p>I enjoyed very much the precise gamefeel of Snootlet, the surreal atmosphere, and the process of putting together its interlocking map. I’ve wanted to revisit it since the moment of its release. And some of my favorite recent (and less recent) games have been in a similar genre: weird, semi-open-world games with long-term progression gated by exploration and pickups. I’ve known for a long time that I’d make one of my own.</p>
+<p>Like most indie developers, however, I have extreme issues with scope creep. If I gave myself free rein, I’d never complete this kind of project. Therefore, I’ve given myself a handful of hard constraints, and I’m sure there’ll be more to come as development continues.</p>
+<ul>
+<li>All code lives in a single file (it’s currently at about 4000 lines)</li>
+<li>I use a fixed palette of 12 colors maximum, including black, and each sprite or tile can only use two of them</li>
+<li>Any standard abilities of the genre—such as double jumping or dashing, if present—must be unlocked from the start of the game</li>
+</ul>
+<p>Just as with the 64x64 resolution constraint of Snootlet, the constraints I’m using are important not only to the final game but to the process of designing it. Pocket Pulp, of the (very cool) modern Game Boy Advance game <a href="https://pocket-pulp.itch.io/inky-and-the-alien-aquarium">Inky and the Alien Aquarium</a>, wrote Inky in a custom assembler not for masochism’s sake but because it forced them to think carefully about every feature they included. Constraints develop creativity, and we all love creativity.</p>
+<h2 id="inspirations">Inspirations</h2>
+<p>In Snootlet, you can unlock the ability to indefinitely crawl up and down walls as well as the ability to straight-up fly. Together, these powers obliterate the concept of <em>jumping</em> itself, the central mechanic in almost every game in the genre. It was delightful trying to design challenges that were engaging both before and after acquiring these abilities, and I learned an ungodly amount in the process.</p>
+<p>I’d like to continue this process in Yollicosmic. I’m going to try and surprise the player with every ability they unlock, either through the creativity of the ability itself or through applying it in unexpected ways.</p>
+<h3 id="animal-well">Animal Well</h3>
+<p>Although it doesn’t usually break the game with its unlocks, <em>Animal Well</em> is among the very best games I’ve played for the creativity of its abilities. Each time you pick up something (no spoilers here!) in <em>Animal Well</em>, it takes a minute to even figure out how to use it, and then throughout the rest of the game, you learn more about when and how an ability comes in handy, until you eventually can’t imagine what the game was like without it. It’s amazing to see artists innovating with a genre that tends toward so many rote rhythms of play.</p>
+<h3 id="tunic">Tunic</h3>
+<p>Obscurity and player knowledge are fascinating vectors for long-term progression. I love learning about hidden mechanics—especially ones that are present from the beginning of a game, but the player doesn’t know about them—and having to reconsider how a game works.</p>
+<p><em>Tunic</em> is a poster child for gating progress behind obscurity in addition to mechanical unlocks. It has countless shortcuts and backroads that would allow the player to skip entire areas, but the game’s orthographic projection hides them. It’s a joy to learn which corners of the world have secret paths behind them, and a joy to decipher the pages of <em>Tunic’s</em> manual to discover hidden mechanics. I’d like to rely in part on this kind of extradiagetical progression in Yollicosmic.</p>
+<h3 id="environmental-station-alpha">Environmental Station Alpha</h3>
+<p>Hempuli’s <em>Environmental Station Alpha</em> is another inspiration for this project, less on the mechanical front and more on the presentation. <em>ESA’s</em> environments are carefully considered, distinct, and suffused with powerful atmosphere despite the game’s lo-fi aesthetic and miniscule resolution. The way the station devolves into darkness and surreality gives it a strong identity in an otherwise saturated sector of the genre (the Metroid-leaning sector), and its sound design and music are both consistently perfect.</p>
+<p><em>ESA</em> also feels pocket-sized, even though its map is packed with detail. I’m hoping to make Yollicosmic a decent size, but not sprawling. Something a little smaller than ESA is what I’m shooting for—a size, hopefully, that both is achievable and gives players enough room to explore.</p>
+<h3 id="wario-land-4">Wario Land 4</h3>
+<p>It’s criminal that developers in the genre seem to overlook <em>Wario Land 4</em> as much as they do. Few games have innovated so successfully on nonlinear platformer structure. In <em>Wario Land 4</em>, maps are separated by a level selection screen, but each map is a mini world of its own with the same secret paths and interconnections you’d expect in a Metroid game. At the conclusion of each level, you’re tested on how thoroughly you’ve explored with a frantic, timed dash back to the starting point. I don’t know why more games don’t go with the multiple-mini-open-worlds approach to map design, especially when one of the most enduring criticisms of the genre is the problem of long-distance traversal, backtracking, and fast travel. In Yollicosmic, I’m planning on going with a <em>Wario Land 4</em> structure for levels, but with a multi-tiered approach to the world itself: exploration will be in a small part available in the map screen, with secret exits, alternate routes, and pickup-gated map unlocks in the style of the 2D Mario games.</p>
+<h3 id="kid-icarus-1986">Kid Icarus (1986)</h3>
+<p><em>Kid Icarus</em> for the NES is a strange cult classic action platformer that more people should play. It has a measured style of play heavily centered on learning encounters, being cautious, and making slow progress in the mid- to long-term. Although I don’t want to go with the exact gamefeel of Kid Icarus (it’s a little clunky: it was dealing with the technical limitations of the NES after all), there’s a lot to take from it regarding encounter design. Its world is also strange in the way that old games do so well, with floating eyeballs and grim reapers thrown in right next to modern-day hospitals and turning-into-an-eggplant debuffs. The NES bright-colors-on-pure-black-backgrounds aesthetic also works for me, and it’s what I’m going with for Yollicosmic.</p>
+<h3 id="lightning-round">Lightning Round</h3>
+<p>If I listed every game that influences me for this one, we’d be here for the rest of the year, but here are some others:</p>
+<ul>
+<li>The <em>Legend of Zelda</em> series (especially the original) for its sense of wonder</li>
+<li><em>Doom</em> (1993) for its complementary enemy design</li>
+<li><em>Axiom Verge</em> for its sense of mystery, weird cosmic themes, and world layout</li>
+<li><em>Pikmin 2</em> for its juxtaposition of eeriness and beauty</li>
+<li><em>Darkwood</em> for its sound design, isolation, and obscurity</li>
+<li><em>Blasphemous</em> for its level design</li>
+<li>The <em>Dark Souls</em> series for its writing</li>
+</ul>
+<h2 id="technical-details">Technical Details</h2>
+<p>Right now, I’m writing the game in Wren using <a href="https://domeengine.com/">DOME</a>. DOME is a very small engine with a very small community, but the API is usable and straightforward for the most part, and I like that it’s bitmap-only. I’ve run into some annoying technical limitations with it here and there, and the audio system seems a little basic for the amount of care I’m planning on putting into the audio, so I don’t know if I’ll stick with it (I’d rewrite it for <a href="https://love2d.org/">LÖVE</a> if I don’t), but unless I find a real deal breaker, I love working with new engines and it’s been accessible so far.</p>
+<p>I do level design in the inimitable <a href="https://mapeditor.org">Tiled</a>, and I’m doing the art in <a href="https://aseprite.org">Aseprite</a>.</p>
+
+          </div>
+          <div class="page-end-spacer"></div>
+        </section>
+      </div>
+      <footer class="footer" style="display:none"><span id="copyright">&copy; 2020-2021 <a href="https://spindlebink.com" target="_st">spindlebink</a></span></footer>
+    </main>
+  </body>
+</html>
