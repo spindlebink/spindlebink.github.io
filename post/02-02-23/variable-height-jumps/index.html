@@ -21,7 +21,7 @@
       <div class="content">
         <section class="page">
           <div class="content-header">
-            <h1 class="title"><a href="/post/variable-height-platformer-jumps.html/index.html">Variable-height platformer jumps</a></h1><span class="metadata">a 3-minute read from 02 Feb 2023</span><br><span class="metadata"><i><script type="text/javascript">document.write((["helpfully","conveniently","bewilderedly","boldly","meticulously","saucily","cautiously","kindly","invitingly","obediently","quietly","politely","determinedly","optimistically","bemusedly","loyally","creatively","mildly","joyously","delightedly","dramatically","coyly","deftly","wisely"])[Math.floor(Math.random() * 24)])</script><noscript>dramatically</noscript></i> tagged 
+            <h1 class="title"><a href="/post/variable-height-platformer-jumps.html/index.html">Variable-height platformer jumps</a></h1><span class="metadata">a 2-minute read from 02 Feb 2023</span><br><span class="metadata"><i><script type="text/javascript">document.write((["helpfully","conveniently","bewilderedly","boldly","meticulously","saucily","cautiously","kindly","invitingly","obediently","quietly","politely","determinedly","optimistically","bemusedly","loyally","creatively","mildly","joyously","delightedly","dramatically","coyly","deftly","wisely"])[Math.floor(Math.random() * 24)])</script><noscript>saucily</noscript></i> tagged 
               <ul class="tags">
                 <li><a class="deemph" href="/tag/code">code</a></li>
                 <li><a class="deemph" href="/tag/platformer">platformer</a></li>
@@ -57,14 +57,12 @@
     <span class="hljs-keyword">end</span>
 <span class="hljs-keyword">end</span></code></pre>
 
-<p>Assuming <code>HOP_MULTIPLIER</code> here is somewhere between 0 and 1, this code will instantly decelerate the player’s vertical velocity when the jump button is released. If we’re near the top of our jump arc, this effect will be barely noticeable. If we’re toward the bottom of it, however, we’ll slash our jump arc by a good bit. The closer to 0 this multiplier is, the more pronounced the difference between a short hop and a long jump is.</p>
+<p>Assuming <code>HOP_MULTIPLIER</code> here is somewhere between 0 and 1, this’ll instantly decelerate the player’s vertical velocity when they release the jump button. If we’re near the top of our jump arc, this effect will be barely noticeable. If we’re toward the bottom of it, however, we’ll slash our jump arc by a good bit. The closer to 0 this multiplier is, the more pronounced the difference between a short hop and a long jump is.</p>
 <div class="image">
 
 <p><img src="/assets/images/jump.gif" alt="Variable height jump example">
 Look at that fancy looking variable-height jump</p>
 </div>
-
-<p>You can see a similar effect at play in Hollow Knight, where releasing the jump button results in instant falling from whatever height you’re currently at. Applying deceleration via a multiplier, however, makes for a much smoother jump arc.</p>
 
           </div>
           <div class="page-end-spacer"></div>
